@@ -1,7 +1,9 @@
-function App() {
+import Header from './components/Header';
+
+const App = () => {
   return (
     <div className="container">
-      <h1>안녕 리액트!</h1>
+      <Header title='안녕'/>
     </div>
   );
 }
